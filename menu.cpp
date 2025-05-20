@@ -5,11 +5,11 @@ using namespace std;
 
 void dMenu(){
 system("cls");
-cout<<"Aplikasi Sorting Buble"<<"\n";       
-cout<<"1. Memasukan data"<<"\n";            
+cout<<"Aplikasi Sorting Selection"<<"\n";       
+cout<<"1. Memasukkan Data"<<"\n";            
 cout<<"2. Menampilkan data"<<"\n";            
 cout<<"3. Sorting"<<"\n";           
-cout<<"4. Semangat Coding"<<"\n";            
+cout<<"4. Sepatah Kata"<<"\n";            
 cout<<"5. Exit"<<"\n";           
 cout<<"Masukan angka :";        
 
@@ -21,6 +21,12 @@ cout<<"hallo saya menu "<<pesan;
 getch();
 }
 
+
+void sepatahKata(){
+  system("cls");
+  cout <<"Indonesia Harus Bisa, Kita Juara\n @poliban";
+  getch();
+}
 
 int main() {
 char pl;
@@ -43,7 +49,7 @@ do
     /* code */
     break;  
    case '4':
-    mPertama("ke- empat");
+    sepatahKata();
     /* code */
     break;  
   case '5':
